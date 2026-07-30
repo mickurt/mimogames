@@ -114,14 +114,9 @@ body {
 }
 
 .hero-logo {
-    max-width: 360px;
+    max-width: 260px;
     width: 100%;
     height: auto;
-    border-radius: 0;
-    filter: none;
-    box-shadow: none;
-    animation: none;
-    transform: none;
     display: block;
     margin: 0 auto;
 }
