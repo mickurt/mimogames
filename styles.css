@@ -95,7 +95,7 @@ body {
 
 /* Hero Section */
 .hero {
-    padding: 50px 0 40px;
+    padding: 15px 0 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -109,7 +109,7 @@ body {
 .hero-logo-wrapper {
     position: relative;
     display: inline-block;
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 
 .hero-logo,
@@ -421,7 +421,11 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
     .hero {
-        padding: 35px 0 25px;
+        padding: 10px 0 15px;
+    }
+
+    .hero-logo-wrapper {
+        margin-bottom: 4px;
     }
 
     .hero-title {
