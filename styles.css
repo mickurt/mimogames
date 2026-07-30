@@ -115,7 +115,7 @@ body {
 .hero-logo,
 .hero-logo-wrapper img,
 img.hero-logo {
-    max-width: 320px;
+    max-width: 500px;
     width: 100%;
     height: auto;
     display: block;
@@ -430,8 +430,10 @@ footer {
         font-size: 1.1rem;
     }
 
-    .hero-logo {
-        max-width: 250px;
+    .hero-logo,
+    .hero-logo-wrapper img,
+    img.hero-logo {
+        max-width: 360px;
     }
 
     .games-grid {
