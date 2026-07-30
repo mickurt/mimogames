@@ -104,7 +104,6 @@ body {
 .hero-content {
     position: relative;
     z-index: 10;
-    animation: fadeIn 0.8s ease-out;
 }
 
 .hero-logo-wrapper {
@@ -119,6 +118,12 @@ body {
     height: auto;
     display: block;
     margin: 0 auto;
+    border-radius: 0;
+    filter: none;
+    box-shadow: none;
+    animation: none;
+    transform: none;
+    transition: none;
 }
 
 .hero-title {
