@@ -1,6 +1,6 @@
 :root {
-    --bg-color: #9FAFFC;
-    --bg-gradient: linear-gradient(180deg, #9FAFFC 0%, #98A7FA 40%, #90A0FA 100%);
+    --bg-color: rgb(163, 177, 251);
+    --bg-gradient: rgb(163, 177, 251);
     --text-primary: #1E1656;
     --text-secondary: #362C7A;
     --accent-yellow: #FFC928;
