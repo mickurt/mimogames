@@ -46,21 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Hero Logo Mouse Parallax
-    const heroSection = document.querySelector('.hero');
-    const heroLogo = document.querySelector('.hero-logo');
 
-    if (heroSection && heroLogo) {
-        heroSection.addEventListener('mousemove', (e) => {
-            const x = (window.innerWidth - e.pageX * 2) / 100;
-            const y = (window.innerHeight - e.pageY * 2) / 100;
-            heroLogo.style.transform = `translateX(${x}px) translateY(${y}px)`;
-        });
-        
-        heroSection.addEventListener('mouseleave', () => {
-            heroLogo.style.transform = `translateX(0px) translateY(0px)`;
-        });
-    }
 
     // Category Filter Interaction
     const filterBtns = document.querySelectorAll('.filter-btn');

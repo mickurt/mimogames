@@ -1,6 +1,6 @@
 :root {
-    --bg-color: rgb(163, 177, 251);
-    --bg-gradient: rgb(163, 177, 251);
+    --bg-color: rgb(160, 176, 252);
+    --bg-gradient: rgb(160, 176, 252);
     --text-primary: #1E1656;
     --text-secondary: #362C7A;
     --accent-yellow: #FFC928;
@@ -84,12 +84,6 @@ body {
     }
 }
 
-@keyframes float {
-    0% { transform: translateY(0px) rotate(0deg); }
-    50% { transform: translateY(-12px) rotate(1deg); }
-    100% { transform: translateY(0px) rotate(0deg); }
-}
-
 /* Container */
 .container {
     max-width: 1240px;
@@ -120,14 +114,16 @@ body {
 }
 
 .hero-logo {
-    max-width: 340px;
+    max-width: 360px;
     width: 100%;
     height: auto;
-    border-radius: 40px;
-    animation: float 6s ease-in-out infinite;
-    /* Clean shadow so logo blends perfectly into the #9FAFFC background */
-    filter: drop-shadow(0 18px 30px rgba(30, 22, 86, 0.15));
-    transition: transform 0.3s ease;
+    border-radius: 0;
+    filter: none;
+    box-shadow: none;
+    animation: none;
+    transform: none;
+    display: block;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -177,18 +173,7 @@ body {
     background: linear-gradient(135deg, #FFE066, #FF991F);
 }
 
-.hero-bg-glow {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 650px;
-    height: 650px;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(255, 201, 40, 0.15) 50%, transparent 70%);
-    z-index: 1;
-    pointer-events: none;
-    filter: blur(40px);
-}
+
 
 /* Category Filter Bar */
 .filter-bar {
