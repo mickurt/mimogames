@@ -112,18 +112,21 @@ body {
     margin-bottom: 24px;
 }
 
-.hero-logo {
+.hero-logo,
+.hero-logo-wrapper img,
+img.hero-logo {
     max-width: 260px;
     width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 0;
-    filter: none;
-    box-shadow: none;
-    animation: none;
-    transform: none;
-    transition: none;
+    border-radius: 0 !important;
+    filter: none !important;
+    box-shadow: none !important;
+    animation: none !important;
+    transform: none !important;
+    transition: none !important;
+    will-change: auto !important;
 }
 
 .hero-title {
